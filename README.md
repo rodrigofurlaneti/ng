@@ -23,9 +23,12 @@ Angular, Component, Module, Service
 12 - selecionar o diretorio src/app/nome-modulo (Modulo secundario da aplicação) 
 13 - angular cli - terminal - ng generate component nome-componente2
 14 - selecionar o arquivo src/app/nome-modulo/nome-componente2/nome-modulo.module.ts, acredentar no @NgModule a propriedade exports: [NomeComponente2Component].
-15 - selecionar o arquivo src/app/app.component.html, acredentar a linha <app-nome-componente2></app-nome-componente2>.
-16 - selecionar o arquivo src/app/app.module.ts, acredentar no @NgModule/import a propriedade NomeModuloModule.
-
+15 - selecionar o arquivo src/app/app.component.html, acredentar a linha <app-nome-componente2></app-nome-componente2>
+16 - selecionar o arquivo src/app/app.module.ts, acredentar no @NgModule/import a propriedade NomeModuloModule
+17 - selecionar o diretorio src/app/nome-modulo (Modulo secundario da aplicação) 
+18 - angular cli - terminal - ng generate service nome-servico
+19 - selecionar o arquivo src/app/nome-modulo/nome-servico.service.ts, incluir o metodo getAtributos(){ return ['Id', 'Nome', 'Telefone', 'Endereço', 'Cidade', 'Estado', 'Pais'];
+20 - selecionar o arquivo src/app/nome-modulo/nome-modulo.module.ts, incluir no @NgModule/providers a propriendade NomeServicoService
 
 
 ```
