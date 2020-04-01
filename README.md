@@ -18,5 +18,14 @@ Angular, Component, Module, Service
 7 - selecionar o arquivo src/app/app.component.html, adicionar o selector <app-nome-component></app-nome-component>
 8 - arquivo nome-componente.html acrecentar {{ title }} (Adicionar a interpolação)
 9 - terminal ng serve (Compilar para o http://localhost:4200/)
-10 - angular cli - terminal - ng generate module nome-module
+10 - selecionar o arquivo src/app/app.module.ts (Modulo raiz da aplicação) 
+11 - angular cli - terminal - ng generate module nome-module
+12 - selecionar o diretorio src/app/nome-modulo (Modulo secundario da aplicação) 
+13 - angular cli - terminal - ng generate component nome-componente2
+14 - selecionar o arquivo src/app/nome-modulo/nome-componente2/nome-modulo.module.ts, acredentar no @NgModule a propriedade exports: [NomeComponente2Component].
+15 - selecionar o arquivo src/app/app.component.html, acredentar a linha <app-nome-componente2></app-nome-componente2>.
+16 - selecionar o arquivo src/app/app.module.ts, acredentar no @NgModule/import a propriedade NomeModuloModule.
+
+
+
 ```
