@@ -8,13 +8,13 @@ Angular, Component, Module, Service
 
 ### Estrutura dos diretórios
 
-######1. nome_projeto
-######2. src
-######3. app
-######4. nome_modulo
-######5. component
-######6. module
-######7. service
+###### 1. nome_projeto
+###### 2. src
+###### 3. app
+###### 4. nome_modulo
+###### 5. component
+###### 6. module
+###### 7. service
 
 ### Procedimentos - Angular cli
 
