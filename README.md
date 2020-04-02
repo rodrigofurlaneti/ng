@@ -6,6 +6,11 @@ Angular, Component, Module, Service
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+### Estrutura dos diretórios
+
+
+| Tables | Are | Cool | |----------|:-------------:|------:| | col 1 is| left-aligned | $1600 |
+
 ### Procedimentos - Angular cli
 
 ```sh
