@@ -6,6 +6,16 @@ Angular, Component, Module, Service
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+### Estrutura dos diretórios
+
+###### 1. nome_projeto
+###### 2. src
+###### 3. app
+###### 4. nome_modulo
+###### 5. component
+###### 6. module
+###### 7. service
+
 ### Procedimentos - Angular cli
 
 ```sh
