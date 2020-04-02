@@ -8,8 +8,13 @@ Angular, Component, Module, Service
 
 ### Estrutura dos diretórios
 
-
-| Tables | Are | Cool | |----------|:-------------:|------:| | col 1 is| left-aligned | $1600 |
+-nome_projeto
+--src
+---app
+----nome_modulo
+-----component
+-----module
+-----service
 
 ### Procedimentos - Angular cli
 
