@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { NomeServicoService } from './nome-servico.service';
+import { NomeServicoService } from '../service/nome-servico.service';
 
 @Component({
   selector: 'app-nome-componente2',
-  templateUrl: './nome-componente2.component.html',
-  styleUrls: ['./nome-componente2.component.css']
+  templateUrl: '../component/nome-componente2.component.html',
+  styleUrls: ['../component/nome-componente2.component.css']
 })
 export class NomeComponente2Component implements OnInit {
   entidade: string;
